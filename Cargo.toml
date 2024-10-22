@@ -1,5 +1,5 @@
 [package]
-name = "counter-solana-native"
+name = "distribute"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,8 +12,5 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-borsh = "0.9.3"
-rand_chacha = "0.3.1"
-rand = "0.8.5"
-solana-program = "=1.18.17"
-spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
+solana-program = "2.0.13"
+spl-token = "6.0.0"
